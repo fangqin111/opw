@@ -180,7 +180,6 @@ jobs:
       env:
         OPENWRT_ARMVIRT: openwrt/bin/targets/*/*/*.tar.gz
         PACKAGE_SOC: s905d_s912
-        SCRIPT_QEMU: mk_qemu-aarch64_img.sh
         KERNEL_AUTO_LATEST:  true
         KERNEL_VERSION_NAME: 6.1.84_6.6.25
         WHOAMI: Sil
